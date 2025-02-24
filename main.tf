@@ -7,7 +7,7 @@ variable "cidr" {
 }
 
 resource "aws_key_pair" "example" {
-  key_name   = "terraform-demo-abhi"
+  key_name   = "terraform-demo"
   public_key = file("~/.ssh/id_rsa.pub")
 }
 
